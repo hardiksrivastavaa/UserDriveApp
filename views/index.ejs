@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css">
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-900 text-white">
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-600 to-teal-500 text-white py-24 md:py-32 mt-12 mb-16">
+        <div class="container mx-auto flex flex-col md:flex-row items-center px-6 space-y-8 md:space-y-0">
+            <div class="text-center md:text-left md:w-1/2 space-y-6">
+                <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">Welcome to User Drive</h2>
+                <p class="text-lg md:text-xl mb-8">
+                    Store, upload, and manage your files with ease. Share your files securely, download them anytime,
+                    and manage everything in one place.
+                </p>
+                <div class="space-x-4">
+                    <a href="/users/register"
+                        class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg border-2 shadow-md transition duration-300 ease-in-out">
+                        Register
+                    </a>
+                    <a href="/users/login"
+                        class="inline-flex items-center border-2 bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out">
+                        Login
+                    </a>
+                </div>
+            </div>
+            <!-- Icons instead of Image -->
+            <div class="md:w-1/2 flex justify-center space-x-10 md:space-x-16">
+                <!-- Icon 1 -->
+                <div class="text-7xl">
+                    <i class="ri-upload-cloud-line"></i>
+                </div>
+                <!-- Icon 2 -->
+                <div class="text-7xl">
+                    <i class="ri-file-list-line"></i>
+                </div>
+                <!-- Icon 3 -->
+                <div class="text-7xl">
+                    <i class="ri-lock-line"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-gray-800 mt-12 mb-16">
+        <div class="container mx-auto px-6">
+            <br>
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-6">Why Choose User Drive?</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+                <!-- Feature 1 -->
+                <div
+                    class="bg-gray-700 p-8 rounded-lg shadow-lg text-center hover:bg-teal-600 transition duration-300 ease-in-out">
+                    <div class="text-4xl mb-6">
+                        <i class="ri-upload-cloud-line text-teal-500"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Easy File Upload</h3>
+                    <p>Upload your files in just a few clicks. We support multiple formats and ensure seamless uploading
+                        for all your files.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div
+                    class="bg-gray-700 p-8 rounded-lg shadow-lg text-center hover:bg-teal-600 transition duration-300 ease-in-out">
+                    <div class="text-4xl mb-6">
+                        <i class="ri-file-list-line text-teal-500"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Manage Files Efficiently</h3>
+                    <p>Organize, delete, and download files from your drive with ease. Stay in control of all your
+                        important documents and images.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div
+                    class="bg-gray-700 p-8 rounded-lg shadow-lg text-center hover:bg-teal-600 transition duration-300 ease-in-out">
+                    <div class="text-4xl mb-6">
+                        <i class="ri-lock-line text-teal-500"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Secure Storage</h3>
+                    <p>Store your files with the confidence that they are safe and securely stored. Your privacy is our
+                        priority.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-16 bg-gray-900 text-center mt-6 mb-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">About User Drive</h2>
+            <p class="text-lg md:text-xl text-gray-300 mb-8">
+                User Drive is a file management platform that allows you to upload, store, and manage your files
+                seamlessly. Whether you're a student, professional, or just need to keep your files organized, our
+                platform offers easy-to-use features with a focus on security and accessibility.
+            </p>
+            <a href="/users/login"
+                class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out">
+                Get Started
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-800 text-center mt-6">
+        <div class="container mx-auto">
+            <div class="flex justify-center items-center space-x-6">
+                <span class="text-sm text-white-500">
+                    © 2024 | <a href="https://linkedin.in/hardiksrivastavaaa/" class="hover:underline">Hardik
+                        Srivastava</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>
