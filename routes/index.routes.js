@@ -7,6 +7,12 @@ const multer = require('multer');
 const upload = multer({ storage: storage });
 const fileModel = require('../models/files.model.js');
 
+
+router.get('/', (req, res) => {
+    res.render('index');  // Ensure this matches the filename of your EJS view
+  });
+
+  
 // Drive route (protected route for authenticated users)
 router.get('/drive', authMiddleware, async (req, res) => {
     try {
