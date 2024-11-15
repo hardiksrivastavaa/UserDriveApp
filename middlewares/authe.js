@@ -20,9 +20,24 @@ function auth(req, res, next) {
         return next();
 
     } catch (err) {
+
+        // Differentiating errors for better debugging
+        if (err.name === 'TokenExpiredError') {
+            return res.status(401).json({
+                message: 'Unauthorized: Token has expired'
+            });
+        }
+
+        if (err.name === 'JsonWebTokenError') {
+            return res.status(401).json({
+                message: 'Unauthorized: Invalid token'
+            });
+        }
+
+        // General error fallback
         return res.status(401).json({
-            message: "Unauthorized"
-        })
+            message: 'Unauthorized: Invalid token'
+        });    
     }
 }
 
