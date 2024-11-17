@@ -1,6 +1,6 @@
 # User Drive - File Management System
 
-**User Drive** is a web-based file management system that allows users to upload, store, and manage their files securely. It offers an easy-to-use interface, where users can upload and download files, organize their storage, and maintain privacy. It uses **Express.js** as the backend, **MongoDB** for database storage, and **EJS** for rendering dynamic views.
+A comprehensive Full Stack Web Application, designed to offer seamless file storage and management. Built using modern technologies like Node.js, Express.js, and MongoDB, this application leverages MongoDB Atlas for secure and scalable cloud database storage. Additionally, it integrates Cloudinary for efficient file uploading and cloud storage. User Drive provides a robust, user-friendly platform for managing files with speed and reliability, showcasing best practices in full-stack development.
 
 ## Features
 
