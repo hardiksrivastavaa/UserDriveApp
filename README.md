@@ -23,20 +23,6 @@ A comprehensive Full Stack Web Application, designed to offer seamless file stor
 - **Remix Icons**: For UI icons.
 - **dotenv**: For managing environment variables.
 
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- **Node.js** (v14 or higher)
-- **MongoDB** (local or remote instance)
-- **Git** (for version control)
-
-## Installation
-
-### 1. Clone the Repository
-
-First, clone the repository to your local machine:
-
 ```bash
 git clone https://github.com/your-username/user-drive.git
 cd user-drive
