@@ -23,6 +23,3 @@ A comprehensive Full Stack Web Application, designed to offer seamless file stor
 - **Remix Icons**: For UI icons.
 - **dotenv**: For managing environment variables.
 
-```bash
-git clone https://github.com/your-username/user-drive.git
-cd user-drive
