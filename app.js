@@ -32,7 +32,9 @@ app.use('/users', userRouter);   // User-related routes like login and registrat
 app.use('/', indexRouter);       // File management routes like /drive, /upload, etc.
 
 // Start the server
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
+// const port = process.env.PORT || 3000;
+// app.listen(port, () => {
+//    console.log(`Server is running on port ${port}`);
+// });
+
+module.exports = app;
